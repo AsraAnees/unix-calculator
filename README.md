@@ -1,17 +1,5 @@
-# 'make all' (To make all the required file)
-# 'make clean' (To clean the directories after you have created files using make all)
+# Unix Calculator
 
+A Unix/Linux calculator and compiler-style project built using **Lex/Flex, Yacc/Bison, and x86-64 assembly**.
 
-Project Members:
-1. Ali Abdullah
-2. Asra Anees
-
-Step 1:
- Make file
- 
-Step 2:
-  Copy fact.calc or gcd.calc or harmonic.calc or pi.calc from testprogs folder to the project folder where x86-64-driver.sh is located
-  Run x86-64-driver.sh with calc file as an argument i.e "./x86-64-driver.sh fact.calc"
-  
-Step 3:
-  Go to /bin folder and run that calc executable file. I.e Running ./fact.bin should output 0 on successful execution. 
+The project parses calculator programs and generates executable x86-64 code. It includes lexical and syntax analysis, assembly support routines, and test programs for computations such as factorial, greatest common divisor (GCD), harmonic calculations, and π-related calculations.
